@@ -6,7 +6,7 @@ function SideNavList() {
     <div className='sidenav-menu font-size-16 font-weight-500'>
          <p className='menu-list'>
              <Link className='text-decoration-none' to="/layout/user" >
-                 Users
+                 <img className= "" />Users
             </Link>
         </p>
          <p className='menu-list'>
@@ -14,7 +14,16 @@ function SideNavList() {
                  Videos
             </Link>
         </p>
-         
+        <p className='menu-list'>
+             <Link className='text-decoration-none' to="/layout/photos">
+                 Photos
+            </Link>
+        </p>
+        <p className='menu-list'>
+             <Link className='text-decoration-none' to="/login">
+                 Logout
+            </Link>
+        </p>
     </div>
   );
 }
